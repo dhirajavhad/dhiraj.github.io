@@ -1,0 +1,127 @@
+html,body{
+    border: black;
+    margin: 5px;
+    padding: 10px;
+    display: flexbox;
+    height: 100%;
+    width: 100%;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
+
+
+
+.wrapper{
+    flex-direction: column column-reverse;
+    max-width: 2000px;margin-top: 50px;
+    height: 100%;
+    width: 100%;
+    background: fuchsia;
+}
+.name{
+    text-align: center;
+    color: black;
+    margin: 2px;
+    border: 2px solid;
+    
+    font-style: normal;
+    font-size: 50px;
+}
+.box1 {
+    width: 100%;
+    background: gold;
+   
+  }
+  
+  .box2 {
+   max-width: 100%;
+   background: gold;
+  }
+  
+  .box3 {
+    max-width: 100%;
+    height: 300px;
+    background:gold;
+  }
+  .about{
+      height: 100px;
+    color: olive;
+    text-align: center;
+    text-decoration-style: solid;
+    padding: 8px;
+}
+.justify{
+    margin: 2px;
+    text-align: center;
+  border: 1px solid;
+  padding: 8px;
+  text-indent: 50px;
+  text-align: justify;
+  letter-spacing: 3px;
+  color: black;
+}
+  .box4 {
+      height: 300px;
+    max-width: 100%;
+    background: gold;
+  }
+  .exp{
+      height: 80px;
+      text-align: center;
+      text-decoration-style: solid;
+    padding: 8px;
+    color: olive;
+  }
+  .progress{
+      height: 50px;
+      padding: 2px;
+      border: indigo solid;
+  }
+  .box5{
+      margin-bottom: 0%;
+      background: gold;
+  }
+  .pro{
+        color: olive;
+        text-align: center;
+        font-style: italic;
+        font-size: 30px;
+  }
+  .card{
+      margin: 2px;
+      padding: 2px;
+      background: violet;
+      color: black;
+  }
+  .box6{
+      background: gold;
+      border: 2px solid;
+      margin-bottom: 0%;
+      color: olive;
+      text-align: center;
+      font-style: italic;
+      font: italic;
+      font-size: 30px;
+    }
+  
